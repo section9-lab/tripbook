@@ -1,1 +1,6 @@
-Flask==3.0.3
+fastapi
+uvicorn
+pydantic[email]
+asyncpg
+sqlalchemy
+python-dotenv
