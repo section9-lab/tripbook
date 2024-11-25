@@ -8,7 +8,7 @@ router = APIRouter()
 
 @router.get("/")
 def read_root():
-    return {"message": "Welcome to Travel Planner API!"}
+    return "Welcome to Travel Planner API!"
 
 
 @router.post("/trips", response_model=TripResponse)
